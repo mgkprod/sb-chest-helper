@@ -1,0 +1,140 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #app {
+    padding: 0;
+    margin: 0;
+
+    color: #fff;
+}
+
+main {
+    text-shadow: 0 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.text-blueish {
+    letter-spacing: -1px;
+
+    /* Inner blue shadow (#C0EEF1) in the bottom of the text */
+    text-shadow: 0 1px 0px #C0EEF1,
+        0 4px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.bg-pattern {
+    background-image: url('/assets/pattern_background.png');
+    background-position: center;
+    animation: bg-animation 20s linear infinite;
+}
+
+@keyframes bg-animation {
+    0% { background-position: 0% 0%; }
+    100% { background-position: -20% 100%; }
+}
+
+.card {
+     background-color: #101927;
+     border-radius: 10px;
+     border: 2px solid #000;
+}
+
+.btn {
+    background-color: #6D6B79;
+    color: #FFF;
+    border: 2px solid #000;
+    font-weight: 700;
+    border-radius: 7px;
+    transition: background-color 0.3s, transform 0.1s;
+    box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2);
+    padding: 10px 20px;
+    display: flex;
+    item-align: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: #7D7B89;
+    }
+
+    &:active {
+        transform: scale(0.95);
+    }
+
+    /* Modifiers */
+
+    &.btn-sm {
+        padding: 5px 10px;
+    }
+
+    &.btn-lg {
+        padding: 15px 30px;
+    }
+
+    /* Colors */
+
+    &.btn-primary {
+        background-color: #F0F0F0;
+        color: #000;
+
+        &:hover, &:active { background-color: #FFF; }
+    }
+
+    &.btn-secondary {
+        background-color: #2B2D3C;
+
+        &:hover, &:active { background-color: #3B3D4C; }
+    }
+
+    &.btn-success {
+        background-color: #2CC990;
+
+        &:hover, &:active { background-color: #4DE0B3; }
+    }
+
+    &.btn-info {
+        background-color: #2C85F3;
+
+        &:hover, &:active { background-color: #4D9BFF; }
+    }
+
+    &.btn-danger {
+        background-color: #FD2C7C;
+        border-color: #CB236E;
+
+        &:hover, &:active { background-color: #FF4D9B; }
+    }
+}
+
+/* Cycle display */
+
+.cycle {
+    >div {
+        position: relative;
+    }
+
+    >div:after {
+        position: absolute;
+        content: "";
+        margin-left: 53px;
+        width: 20px;
+    }
+
+    >div:not(:last-child):after {
+        border: 1px solid rgba(255, 255, 255, 1);
+    }
+}
+
+.cycle-sm {
+    >div:after {
+        position: absolute;
+        content: "";
+        margin-left: 45px;
+        width: 21px;
+    }
+}
+
+.cycle-dashed {
+    /* Set last child to border fading out */
+    >div:last-child:after {
+        border: 1px dashed rgba(255, 255, 255, 0.5);
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "mgkprod",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue src"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "@vueuse/core": "^10.10.0",
+    "@vueuse/integrations": "^10.10.0",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-plugin-tailwindcss": "^3.17.0",
+    "eslint-plugin-vue": "^9.19.2",
+    "postcss": "^8.4.32",
+    "sortablejs": "^1.15.2",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.8",
+    "vue": "^3.3.11",
+    "vue-i18n": "^9.13.1"
+  }
+}

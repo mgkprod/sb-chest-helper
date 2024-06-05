@@ -1,0 +1,15 @@
+{
+    "your_last_chests": "Tes derniers coffres",
+    "common": "Commun",
+    "rare": "Rare",
+    "epic": "Épique",
+    "unknown_chests": "Coffres inconnus",
+    "select_at_least_3_chests": "Tu dois sélectionner au moins 3 coffres pour que je puisse te dire où tu en es dans le cycle.",
+    "next_chests": "Prochains coffres",
+    "in": "dans",
+    "current_cycle": "Cycle actuel",
+    "advance_one_chest": "Avancer d'un coffre",
+    "reset": "Réinitialiser",
+    "about": "À propos",
+    "close": "Fermer"
+}

@@ -1,0 +1,15 @@
+{
+    "your_last_chests": "Your last chests",
+    "common": "Common",
+    "rare": "Rare",
+    "epic": "Epic",
+    "unknown_chests": "Unknown chests",
+    "select_at_least_3_chests": "You must select at least 3 chests for me to tell you where you are in the cycle.",
+    "next_chests": "Next chests",
+    "in": "in",
+    "current_cycle": "Current cycle",
+    "advance_one_chest": "Advance one chest",
+    "reset": "Reset",
+    "about": "About",
+    "close": "Close"
+}

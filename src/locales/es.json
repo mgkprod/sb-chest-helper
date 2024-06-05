@@ -1,0 +1,15 @@
+{
+    "your_last_chests": "Tus últimos cofres",
+    "common": "Común",
+    "rare": "Raro",
+    "epic": "Épico",
+    "unknown_chests": "Cofres desconocidos",
+    "select_at_least_3_chests": "Debes seleccionar al menos 3 cofres para que pueda decirte dónde estás en el ciclo.",
+    "next_chests": "Próximos cofres",
+    "in": "en",
+    "current_cycle": "Ciclo actual",
+    "advance_one_chest": "Avanzar un cofre",
+    "reset": "Restablecer",
+    "about": "Acerca de",
+    "close": "Cerrar"
+}
